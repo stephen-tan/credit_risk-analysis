@@ -81,7 +81,7 @@ Confusion Matrix<br/>
 ![EasyEnsembleClassifier CM](Resources/EasyEnsembleClassifier_CM.png)<br/>
 
 Imbalanced Classification Report<br/>
-![EasyEnsembleClassifier ICR](Resources/daEasyEnsembleClassifier_ICR.png)
+![EasyEnsembleClassifier ICR](Resources/EasyEnsembleClassifier_ICR.png)
 <br/>- Balanced accuracy score:
 <br/>- High risk precision:
 <br/>- Low risk precision:
