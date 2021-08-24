@@ -24,9 +24,9 @@ Confusion Matrix<br/>
 Imbalanced Classification Report<br/>
 ![RandomOverSampler ICR](Resources/RandomOverSampler_ICR.png)
 <br/>- Balanced accuracy score: 65%
-<br/>- High risk precision:
-<br/>- F1 score:
-<br/>- Recall score:
+<br/>- High risk precision: 1%
+<br/>- F1 score: 2%
+<br/>- Recall score: 60%
 
 ### 2. SMOTE (Synthetic Minority Oversampling Technique)
 
@@ -36,9 +36,9 @@ Confusion Matrix<br/>
 Imbalanced Classification Report<br/>
 ![SMOTE ICR](Resources/SMOTE_ICR.png)
 <br/>- Balanced accuracy score: 66%
-<br/>- High risk precision:
-<br/>- F1 score:
-<br/>- Recall score:
+<br/>- High risk precision: 1%
+<br/>- F1 score: 2%
+<br/>- Recall score: 69%
 
 ### 3. ClusterCentroids
 
@@ -48,9 +48,9 @@ Confusion Matrix<br/>
 Imbalanced Classification Report<br/>
 ![ClusterCentroids ICR](Resources/ClusterCentroids_ICR.png)
 <br/>- Balanced accuracy score: 54%
-<br/>- High risk precision:
-<br/>- F1 score:
-<br/>- Recall score:
+<br/>- High risk precision: 1%
+<br/>- F1 score: 1%
+<br/>- Recall score: 40%
 
 ### 4. SMOTEENN (SMOTE and Edited Nearest Neighbors)
 
@@ -60,9 +60,9 @@ Confusion Matrix<br/>
 Imbalanced Classification Report<br/>
 ![SMOTEENN ICR](Resources/SMOTEENN_ICR.png)
 <br/>- Balanced accuracy score: 64%
-<br/>- High risk precision:
-<br/>- F1 score:
-<br/>- Recall score:
+<br/>- High risk precision: 1%
+<br/>- F1 score: 2%
+<br/>- Recall score: 58%
 
 ### 5. BalancedRandomForestClassifier
 
@@ -72,9 +72,9 @@ Confusion Matrix<br/>
 Imbalanced Classification Report<br/>
 ![BalancedRandomForestClassifier ICR](Resources/BalancedRandomForestClassifier_ICR.png)
 <br/>- Balanced accuracy score: 87%
-<br/>- High risk precision:
-<br/>- F1 score:
-<br/>- Recall score:
+<br/>- High risk precision: 4%
+<br/>- F1 score: 8%
+<br/>- Recall score: 85%
 
 ### 6. EasyEnsembleClassifier
 
@@ -84,9 +84,9 @@ Confusion Matrix<br/>
 Imbalanced Classification Report<br/>
 ![EasyEnsembleClassifier ICR](Resources/EasyEnsembleClassifier_ICR.png)
 <br/>- Balanced accuracy score: 93%
-<br/>- High risk precision:
-<br/>- F1 score:
-<br/>- Recall score:
+<br/>- High risk precision: 9%
+<br/>- F1 score: 16%
+<br/>- Recall score: 94%
 
 ## Summary
 None of these models are good fit for credit risk because....
