@@ -22,11 +22,10 @@ Confusion Matrix<br/>
 
 Imbalanced Classification Report<br/>
 ![RandomOverSampler ICR](Resources/RandomOverSampler_ICR.png)
-
-<br/>Balanced accuracy score:
-<br/>High risk precision:
-<br/>Low risk precision:
-<br/>Recall score:
+<br/>- Balanced accuracy score:
+<br/>- High risk precision:
+<br/>- Low risk precision:
+<br/>- Recall score:
 
 ### 2. SMOTE (Synthetic Minority Oversampling Technique)
 
@@ -35,11 +34,10 @@ Confusion Matrix<br/>
 
 Imbalanced Classification Report<br/>
 ![SMOTE ICR](Resources/SMOTE_ICR.png)
-
-<br/>Balanced accuracy score:
-<br/>High risk precision:
-<br/>Low risk precision:
-<br/>Recall score:
+<br/>- Balanced accuracy score:
+<br/>- High risk precision:
+<br/>- Low risk precision:
+<br/>- Recall score:
 
 ### 3. ClusterCentroids
 
@@ -48,11 +46,10 @@ Confusion Matrix<br/>
 
 Imbalanced Classification Report<br/>
 ![ClusterCentroids ICR](Resources/ClusterCentroids_ICR.png)
-
-<br/>Balanced accuracy score:
-<br/>High risk precision:
-<br/>Low risk precision:
-<br/>Recall score:
+<br/>- Balanced accuracy score:
+<br/>- High risk precision:
+<br/>- Low risk precision:
+<br/>- Recall score:
 
 ### 4. SMOTEENN (SMOTE and Edited Nearest Neighbors)
 
@@ -61,11 +58,10 @@ Confusion Matrix<br/>
 
 Imbalanced Classification Report<br/>
 ![SMOTEENN ICR](Resources/SMOTEENN_ICR.png)
-
-<br/>Balanced accuracy score:
-<br/>High risk precision:
-<br/>Low risk precision:
-<br/>Recall score:
+<br/>- Balanced accuracy score:
+<br/>- High risk precision:
+<br/>- Low risk precision:
+<br/>- Recall score:
 
 ### 5. BalancedRandomForestClassifier
 
@@ -74,11 +70,10 @@ Confusion Matrix<br/>
 
 Imbalanced Classification Report<br/>
 ![BalancedRandomForestClassifier ICR](Resources/BalancedRandomForestClassifier_ICR.png)
-
-<br/>Balanced accuracy score:
-<br/>High risk precision:
-<br/>Low risk precision:
-<br/>Recall score:
+<br/>- Balanced accuracy score:
+<br/>- High risk precision:
+<br/>- Low risk precision:
+<br/>- Recall score:
 
 ### 6. EasyEnsembleClassifier
 
@@ -87,11 +82,10 @@ Confusion Matrix<br/>
 
 Imbalanced Classification Report<br/>
 ![EasyEnsembleClassifier ICR](Resources/daEasyEnsembleClassifier_ICR.png)
-
-<br/>Balanced accuracy score:
-<br/>High risk precision:
-<br/>Low risk precision:
-<br/>Recall score:
+<br/>- Balanced accuracy score:
+<br/>- High risk precision:
+<br/>- Low risk precision:
+<br/>- Recall score:
 
 ## Summary
 None of these models are good fit for credit risk because....
