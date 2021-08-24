@@ -14,60 +14,60 @@ The results for each model contain images of their confusion matrix and imbalanc
 
 ### 1. RandomOverSampler
 
-Confusion Matrix
+Confusion Matrix<br/>
 ![RandomOverSampler CM](Resources/RandomOverSampler_CM.png)<br/>
 
-Imbalanced Classification Report
+Imbalanced Classification Report<br/>
 ![RandomOverSampler ICR](Resources/RandomOverSampler_ICR.png)<br/>
 
 Description
 
 ### 2. SMOTE (Synthetic Minority Oversampling Technique)
 
-Confusion Matrix
+Confusion Matrix<br/>
 ![SMOTE CM](Resources/SMOTE_CM.png)<br/>
 
-Imbalanced Classification Report
+Imbalanced Classification Report<br/>
 ![SMOTE ICR](Resources/SMOTE_ICR.png)<br/>
 
 Description
 
 ### 3. ClusterCentroids
 
-Confusion Matrix
+Confusion Matrix<br/>
 ![ClusterCentroids CM](Resources/ClusterCentroids_CM.png)<br/>
 
-Imbalanced Classification Report
+Imbalanced Classification Report<br/>
 ![ClusterCentroids ICR](Resources/ClusterCentroids_ICR.png)<br/>
 
 Description
 
 ### 4. SMOTEENN (SMOTE and Edited Nearest Neighbors)
 
-Confusion Matrix
+Confusion Matrix<br/>
 ![SMOTEENN CM](Resources/SMOTEENN_CM.png)<br/>
 
-Imbalanced Classification Report
+Imbalanced Classification Report<br/>
 ![SMOTEENN ICR](Resources/SMOTEENN_ICR.png)<br/>
 
 Description
 
 ### 5. BalancedRandomForestClassifier
 
-Confusion Matrix
+Confusion Matrix<br/>
 ![BalancedRandomForestClassifier CM](Resources/BalancedRandomForestClassifier_CM.png)<br/>
 
-Imbalanced Classification Report
+Imbalanced Classification Report<br/>
 ![BalancedRandomForestClassifier ICR](Resources/BalancedRandomForestClassifier_ICR.png)<br/>
 
 Description
 
 ### 6. EasyEnsembleClassifier
 
-Confusion Matrix
+Confusion Matrix<br/>
 ![EasyEnsembleClassifier CM](Resources/EasyEnsembleClassifier_CM.png)<br/>
 
-Imbalanced Classification Report
+Imbalanced Classification Report<br/>
 ![EasyEnsembleClassifier ICR](Resources/daEasyEnsembleClassifier_ICR.png)<br/>
 
 Description
