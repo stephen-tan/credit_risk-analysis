@@ -13,6 +13,7 @@ Each model imported data from "LoanStats_2019Q1.csv", dropping empty columns and
 The results for each model contain images of their confusion matrix and imbalanced classification report as well as a brief description of their outputs. A confusion matrix is a summary of prediction results (correct and incorrect prediction counts) on a classification problem. An imbalanced classification report summarizes each classification when there is an unequal distribution of classes in the training dataset.
 
 Balanced accuracy is a metric that one can use when evaluating how good a binary classifier is.
+F1 Score is the weighted average of Precision and Recall. Therefore, this score takes both false positives and false negatives into account.
 Recall is the measure of our model correctly identifying True Positives.
 
 ### 1. RandomOverSampler
@@ -24,7 +25,7 @@ Imbalanced Classification Report<br/>
 ![RandomOverSampler ICR](Resources/RandomOverSampler_ICR.png)
 <br/>- Balanced accuracy score:
 <br/>- High risk precision:
-<br/>- Low risk precision:
+<br/>- F1 score:
 <br/>- Recall score:
 
 ### 2. SMOTE (Synthetic Minority Oversampling Technique)
@@ -36,7 +37,7 @@ Imbalanced Classification Report<br/>
 ![SMOTE ICR](Resources/SMOTE_ICR.png)
 <br/>- Balanced accuracy score:
 <br/>- High risk precision:
-<br/>- Low risk precision:
+<br/>- F1 score:
 <br/>- Recall score:
 
 ### 3. ClusterCentroids
@@ -48,7 +49,7 @@ Imbalanced Classification Report<br/>
 ![ClusterCentroids ICR](Resources/ClusterCentroids_ICR.png)
 <br/>- Balanced accuracy score:
 <br/>- High risk precision:
-<br/>- Low risk precision:
+<br/>- F1 score:
 <br/>- Recall score:
 
 ### 4. SMOTEENN (SMOTE and Edited Nearest Neighbors)
@@ -60,7 +61,7 @@ Imbalanced Classification Report<br/>
 ![SMOTEENN ICR](Resources/SMOTEENN_ICR.png)
 <br/>- Balanced accuracy score:
 <br/>- High risk precision:
-<br/>- Low risk precision:
+<br/>- F1 score:
 <br/>- Recall score:
 
 ### 5. BalancedRandomForestClassifier
@@ -72,7 +73,7 @@ Imbalanced Classification Report<br/>
 ![BalancedRandomForestClassifier ICR](Resources/BalancedRandomForestClassifier_ICR.png)
 <br/>- Balanced accuracy score:
 <br/>- High risk precision:
-<br/>- Low risk precision:
+<br/>- F1 score:
 <br/>- Recall score:
 
 ### 6. EasyEnsembleClassifier
@@ -84,7 +85,7 @@ Imbalanced Classification Report<br/>
 ![EasyEnsembleClassifier ICR](Resources/EasyEnsembleClassifier_ICR.png)
 <br/>- Balanced accuracy score:
 <br/>- High risk precision:
-<br/>- Low risk precision:
+<br/>- F1 score:
 <br/>- Recall score:
 
 ## Summary
