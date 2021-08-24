@@ -89,4 +89,4 @@ Imbalanced Classification Report<br/>
 <br/>- Recall score: 94%
 
 ## Summary
-None of these models are good fit for credit risk because....
+None of these models are good fit for credit risk because their precision for detecting high risk credit is extremely low. For data resampling models, the precisions were all 1%. There was a slight improvement with the ensemble models, but high risk credit precision was only increased to detect up to 4% or 9%. The EasyEnsembleClassifier is the best at detecting true positives -- high risk credit -- but its precision at doing so still only remains at 9%. For that reason, I would not recommend that the banks follow any of the machine learning models as they ultimately will falsely detect low risk credit as high risk credit.
