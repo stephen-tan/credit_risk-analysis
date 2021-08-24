@@ -23,7 +23,7 @@ Confusion Matrix<br/>
 
 Imbalanced Classification Report<br/>
 ![RandomOverSampler ICR](Resources/RandomOverSampler_ICR.png)
-<br/>- Balanced accuracy score:
+<br/>- Balanced accuracy score: 65%
 <br/>- High risk precision:
 <br/>- F1 score:
 <br/>- Recall score:
@@ -35,7 +35,7 @@ Confusion Matrix<br/>
 
 Imbalanced Classification Report<br/>
 ![SMOTE ICR](Resources/SMOTE_ICR.png)
-<br/>- Balanced accuracy score:
+<br/>- Balanced accuracy score: 66%
 <br/>- High risk precision:
 <br/>- F1 score:
 <br/>- Recall score:
@@ -47,7 +47,7 @@ Confusion Matrix<br/>
 
 Imbalanced Classification Report<br/>
 ![ClusterCentroids ICR](Resources/ClusterCentroids_ICR.png)
-<br/>- Balanced accuracy score:
+<br/>- Balanced accuracy score: 54%
 <br/>- High risk precision:
 <br/>- F1 score:
 <br/>- Recall score:
@@ -59,7 +59,7 @@ Confusion Matrix<br/>
 
 Imbalanced Classification Report<br/>
 ![SMOTEENN ICR](Resources/SMOTEENN_ICR.png)
-<br/>- Balanced accuracy score:
+<br/>- Balanced accuracy score: 64%
 <br/>- High risk precision:
 <br/>- F1 score:
 <br/>- Recall score:
@@ -71,7 +71,7 @@ Confusion Matrix<br/>
 
 Imbalanced Classification Report<br/>
 ![BalancedRandomForestClassifier ICR](Resources/BalancedRandomForestClassifier_ICR.png)
-<br/>- Balanced accuracy score:
+<br/>- Balanced accuracy score: 87%
 <br/>- High risk precision:
 <br/>- F1 score:
 <br/>- Recall score:
@@ -83,7 +83,7 @@ Confusion Matrix<br/>
 
 Imbalanced Classification Report<br/>
 ![EasyEnsembleClassifier ICR](Resources/EasyEnsembleClassifier_ICR.png)
-<br/>- Balanced accuracy score:
+<br/>- Balanced accuracy score: 93%
 <br/>- High risk precision:
 <br/>- F1 score:
 <br/>- Recall score:
