@@ -7,66 +7,68 @@ The purpose of this project was to analyze credit risk using 6 different machine
 - **Combinatorial approach**: SMOTEENN (SMOTE and Edited Nearest Neighbors)
 - **Reduce bias**: BalancedRandomForestClassifier, EasyEnsembleClassifier
 
+Each model imported data from "LoanStats_2019Q1.csv", dropping empty columns and rows, converting string type data into numerical data, splitting the data into training and testing sets, and then calculating the predictions.
+
 ## Results
 The results for each model contain images of their confusion matrix and imbalanced classification report as well as a brief description of their outputs. A confusion matrix is a summary of prediction results (correct and incorrect prediction counts) on a classification problem. An imbalanced classification report summarizes each classification when there is an unequal distribution of classes in the training dataset.
 
 ### 1. RandomOverSampler
 
 Confusion Matrix
-![Imported Amazon Furniture Review Data](Resources/data.png)<br/>
+![RandomOverSampler CM](Resources/RandomOverSampler_CM.png)<br/>
 
 Imbalanced Classification Report
-![Imported Amazon Furniture Review Data](Resources/data.png)<br/>
+![RandomOverSampler ICR](Resources/RandomOverSampler_ICR.png)<br/>
 
 Description
 
 ### 2. SMOTE (Synthetic Minority Oversampling Technique)
 
 Confusion Matrix
-![Imported Amazon Furniture Review Data](Resources/data.png)<br/>
+![SMOTE CM](Resources/SMOTE_CM.png)<br/>
 
 Imbalanced Classification Report
-![Imported Amazon Furniture Review Data](Resources/data.png)<br/>
+![SMOTE ICR](Resources/SMOTE_ICR.png)<br/>
 
 Description
 
 ### 3. ClusterCentroids
 
 Confusion Matrix
-![Imported Amazon Furniture Review Data](Resources/data.png)<br/>
+![ClusterCentroids CM](Resources/ClusterCentroids_CM.png)<br/>
 
 Imbalanced Classification Report
-![Imported Amazon Furniture Review Data](Resources/data.png)<br/>
+![ClusterCentroids ICR](Resources/ClusterCentroids_ICR.png)<br/>
 
 Description
 
 ### 4. SMOTEENN (SMOTE and Edited Nearest Neighbors)
 
 Confusion Matrix
-![Imported Amazon Furniture Review Data](Resources/data.png)<br/>
+![SMOTEENN CM](Resources/SMOTEENN_CM.png)<br/>
 
 Imbalanced Classification Report
-![Imported Amazon Furniture Review Data](Resources/data.png)<br/>
+![SMOTEENN ICR](Resources/SMOTEENN_ICR.png)<br/>
 
 Description
 
 ### 5. BalancedRandomForestClassifier
 
 Confusion Matrix
-![Imported Amazon Furniture Review Data](Resources/data.png)<br/>
+![BalancedRandomForestClassifier CM](Resources/BalancedRandomForestClassifier_CM.png)<br/>
 
 Imbalanced Classification Report
-![Imported Amazon Furniture Review Data](Resources/data.png)<br/>
+![BalancedRandomForestClassifier ICR](Resources/BalancedRandomForestClassifier_ICR.png)<br/>
 
 Description
 
 ### 6. EasyEnsembleClassifier
 
 Confusion Matrix
-![Imported Amazon Furniture Review Data](Resources/data.png)<br/>
+![EasyEnsembleClassifier CM](Resources/EasyEnsembleClassifier_CM.png)<br/>
 
 Imbalanced Classification Report
-![Imported Amazon Furniture Review Data](Resources/data.png)<br/>
+![EasyEnsembleClassifier ICR](Resources/daEasyEnsembleClassifier_ICR.png)<br/>
 
 Description
 
